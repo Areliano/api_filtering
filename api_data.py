@@ -8,4 +8,4 @@ data = response.json()
 tech_universities = [uni for uni in data if "Technology" in uni["name"]]
 
 for uni in tech_universities:
-    print(uni["name"], "-", uni["web_pages"][0])
+    print(uni["name"], "--------", uni["web_pages"][0],  "--------", uni["domains"][0])
